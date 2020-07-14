@@ -1,7 +1,7 @@
 Type: Package
 Package: mrgvalidatetestreference
 Title: Test reference for mrgvalidate
-Version: 0.6.0
+Version: 0.6.1
 Authors@R: 
     c(person(given = "Devin",
              family = "Pastoor",
@@ -12,7 +12,7 @@ Authors@R:
              role = "aut",
              email = "seth127@gmail.com"))
 Description: Frozen clone of rbabylon at
-    9587b7e0c58d12012b2e1f2becb2d5b561a44514 for testing mrgvalidate.
+    051d45e28c8708c391ea2de6c33ea096b63ad73c for testing mrgvalidate.
 License: MIT + file LICENSE
 Depends:
     R (>= 3.5)
