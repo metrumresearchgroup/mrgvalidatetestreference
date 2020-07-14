@@ -1,4 +1,4 @@
 library(testthat)
-library(rbabylon)
+library(mrgvalidatetestreference)
 
-test_check("rbabylon")
+test_check("mrgvalidatetestreference")
