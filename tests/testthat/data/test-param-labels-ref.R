@@ -1,5 +1,3 @@
-library(rbabylon)
-
 # testing block
 BLOCK_REF <- list(
   c(TRUE),
