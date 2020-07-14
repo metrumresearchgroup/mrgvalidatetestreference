@@ -1,45 +1,47 @@
-Package: mrgvalidatetestreference
 Type: Package
+Package: mrgvalidatetestreference
 Title: Test reference for mrgvalidate
 Version: 0.6.0
-Description: Frozen clone of rbabylon at 9587b7e0c58d12012b2e1f2becb2d5b561a44514 for testing mrgvalidate.
-Encoding: UTF-8
-LazyData: true
 Authors@R: 
     c(person(given = "Devin",
-           family = "Pastoor",
-           role = c("aut", "cre"),
-           email = "devin.pastoor@gmail.com"),
-    person(given = "Seth",
-           family = "Green",
-           role = c("aut"),
-           email = "seth127@gmail.com"))
-RoxygenNote: 7.0.2
+             family = "Pastoor",
+             role = c("aut", "cre"),
+             email = "devin.pastoor@gmail.com"),
+      person(given = "Seth",
+             family = "Green",
+             role = "aut",
+             email = "seth127@gmail.com"))
+Description: Frozen clone of rbabylon at
+    9587b7e0c58d12012b2e1f2becb2d5b561a44514 for testing mrgvalidate.
+License: MIT + file LICENSE
+Depends:
+    R (>= 3.5)
 Imports: 
     checkmate,
+    cli,
     digest,
     dplyr,
+    forcats,
     fs,
-    glue,
     ggplot2,
-    magrittr,
+    glue,
     jsonlite,
+    magrittr,
     processx,
     purrr,
     readr,
     rlang,
-    withr,
     stringr,
     tibble,
     tidyr,
-    yaml,
-    forcats,
-    cli
+    withr,
+    yaml
 Suggests: 
-    testthat (>= 2.1.0),
     knitr,
-    rmarkdown
-Depends:
-    R (>= 3.5)
-License: MIT + file LICENSE
-VignetteBuilder: knitr
+    rmarkdown,
+    testthat (>= 2.1.0)
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
