@@ -6,7 +6,6 @@ context("testing a composable workflow but only dryrun and NOT running bbi")
 ####################################################
 
 # reference constants
-MODEL_DIR <- "model-examples"
 TEST_YAML <- "1.yaml"
 
 REF_SUMMARY_CALL <- as.character(glue("cd {getwd()}/model-examples/1 ; {getOption('rbabylon.bbi_exe_path')} nonmem summary 1 --json"))

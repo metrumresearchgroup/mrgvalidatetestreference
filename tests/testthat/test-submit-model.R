@@ -1,6 +1,5 @@
 context("submit_model(.dry_run=T)")
 
-MODEL_DIR <- "model-examples"
 MODEL_FILE <- "1.ctl"
 YAML_PATH <- file.path(MODEL_DIR, yaml_ext(MODEL_FILE))
 MODEL_PATH <- file.path(MODEL_DIR, MODEL_FILE)
@@ -134,7 +133,6 @@ withr::with_options(list(rbabylon.model_directory = NULL), {
 
   test_that("submit_model(.dry_run=T) with bbi_nonmem_model object parses correctly",
             {
-              MOD1 <- read_model(YAML_PATH)
               withr::with_options(list(rbabylon.bbi_exe_path = "bbi"), {
                 # correctly parsing yaml
                 expect_identical(
