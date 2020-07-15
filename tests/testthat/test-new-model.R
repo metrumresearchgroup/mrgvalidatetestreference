@@ -1,7 +1,5 @@
 context("Testing function to create or read in model object")
 
-source("data/test-workflow-ref.R")
-
 withr::with_options(list(rbabylon.model_directory = NULL), {
 
   test_that("read_model() returns expected object", {
