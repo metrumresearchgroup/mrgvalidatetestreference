@@ -1,8 +1,5 @@
 context("Copying model objects")
 
-source("data/test-workflow-ref.R")
-
-
 #########################
 # copy_model_from tests
 #########################
